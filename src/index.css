@@ -24,6 +24,7 @@ input {
   background: #313133;
   padding: 20px;
   margin-bottom: 20px;
+  border-radius: 30px;
 }
 
 .btn {
@@ -33,7 +34,7 @@ input {
 
 button {
   padding: 20px 50px 20px 50px;
-  background-color: #dc960a;
+  background-color:  #ffb92d;
   border: none;
   color: white;
   font-size: 20px;
@@ -48,6 +49,7 @@ p {
   width: 600px;
   font-size: 20px;
   padding: 10px;
+  border-radius: 30px;
 }
 
 
