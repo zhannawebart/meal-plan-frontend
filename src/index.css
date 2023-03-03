@@ -26,6 +26,11 @@ input {
   margin-bottom: 20px;
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
 button {
   padding: 20px 50px 20px 50px;
   background-color: #024d3d;
@@ -42,7 +47,7 @@ p {
   margin-top: 20px;
   width: 600px;
   font-size: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 
 
