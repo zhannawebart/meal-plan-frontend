@@ -29,13 +29,15 @@ function App() {
       value = {title}
       onChange = {(e) => setTitle(e.target.value)}
       />
-
+      
+      <div className="btn">
       <button 
       disabled={!title}
       onClick=
       {editing ? () => editMeal(mealId, title, setMeal, setTitle, setEditing) : () => addMeal(title, setTitle, setMeal)}>
       {editing ? "Edit" : "Add"}
       </button>
+      </div>
 
       {myMeal.map((meal) => <MyMeals text={meal.title} key={meal._id}
       updatingInInput={() => updatingInInput(meal._id, meal.title)}
