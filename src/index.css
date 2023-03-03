@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body {
   background: url('https://images.unsplash.com/photo-1504712598893-24159a89200e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
   background-size: cover;
@@ -7,7 +12,6 @@ body {
 }
 
 h1 {
-  font-family: 'Gloria Hallelujah', cursive;
   text-align: center;
 }
 
@@ -19,7 +23,6 @@ input {
   font-size: 20px;
   background: #313133;
   padding: 20px;
-  font-family: 'Gloria Hallelujah', cursive;
   margin-bottom: 20px;
 }
 
@@ -30,14 +33,13 @@ button {
   color: white;
   font-size: 20px;
   cursor: pointer;
-  border-redious: 20px;
+  border-redius: 20px;
 }
 
 p {
-  max-width: 100%;
+  width: 100%;
   background: beige;
   margin-top: 20px;
-  font-family: 'Gloria Hallelujah', cursive;
   width: 600px;
   font-size: 20px;
   padding: 20px;
